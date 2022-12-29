@@ -3,48 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dicas HTML #1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dicas HTML</title>
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
 
-    <h1>Dicas HTML #1 (Estrutura de uma página)</h1>
 
-    <p>
-        HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. Como o título sugere, este artigo fornecerá uma compreensão básica do HTML e suas funções.
-    </p>
+    <!----------------------------------------CABEÇALHO---------------------------------------->
+    <header class="topnav" id="nome-site">
+        <h1>Dicas de Front-End</h1>
+    </header>
 
-    <h2>Estrutura do HTML</h2>
-    <img src="imagens/estrutura-html.JPG" alt="corpo-html">
+    <header class="topnav" style="position: sticky; top: 0px; left: 0px;">
+        <div>
+            <a href="../index.html"><i class="bi bi-house-door-fill"></i></a>
+        </div>
+        <div style="padding-right: 75px;">
+            <a class="" href="../Dicas-HTML/dicas-html-1.html">HTML</a>
+            <a class="" href="../Dicas-CSS/dicas-css-1.html">CSS</a>
+            <a class="" href="../Dicas-JavaScript/dicas-javascript-1.html">JAVASCRIPT</a> 
+        </div>
+        <div></div>              
+    </header>
+    <!---------------------------------------- BARRA LATERAL ---------------------------------------->
+    <div class="sidebar" id="sidenav" style="top: 44px;">
+        <div style="padding-top: 60px; padding-bottom: 60px;">
+            <div>
+                <h2 class="left">HTML Tutorial</h2>
+                <a href="../Dicas-HTML/dicas-html-1.html">HTML HOME</a>
+                <a class="active" href="../Dicas-HTML/dicas-html-1.html">Parte 1</a>
+                <a href="../Dicas-HTML/dicas-html-2.html">Parte 2</a>
+                <a href="../Dicas-HTML/dicas-html-3.html">Parte 3</a>
+            </div>
+        </div>
+      </div>
 
-    <div>
+    <!---------------------------------------- CONTEUDO ---------------------------------------->
+    <div id="conteudo">
+        <h1>Dicas HTML - Estrutura de uma página</h1>
+        <p>
+            HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. Como o título sugere, este artigo fornecerá uma compreensão básica do HTML e suas funções.
+        </p>
 
-        <ul>
-            <li>
-                <code>&lt;DOCTYPE html&gt;</code> - Essa declaração define que este documento é um documento HTML5
-            </li> <br>
-            <li>
-                <code>&lt;html&gt;&lt;/html&gt;</code> - Esse elemento é o elemento raiz de uma página HTML.
-            </li> <br>
-            <li>
-                <code>&lt;head&gt;&lt;/head&gt;</code> - Elemento que contém metainformações sobre a página HTML.
-            </li> <br>
-            <li>
-                <code>&lt;meta charset="utf-8"&gt;</code> - Esse elemento define o conjunto de caracteres que seu documento deve usar para o UTF-8, que inclui praticamente todos os caracteres da grande maioria dos idiomas escritos. Essencialmente, agora ele pode manipular qualquer conteúdo textual que você possa colocar. Não há razão para não definir isso e assim pode ajudar a evitar alguns problemas no futuro. 
-            </li> <br>
-            <li>
-                <code>&lt;title&gt;&lt;/title&gt;</code> - Elemento que especifica um título para a página HTML (que é mostrado na barra de título do navegador ou na guia da página)
-            </li> <br>
-            <li>
-                <code>&lt;body&gt;&lt;/body&gt;</code> - Elemento que define o corpo do documento e é um recipiente para todos os conteúdos visíveis, como cabeçalhos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.
-            </li>
-        </ul>
-
-        
-
+        <h2>Estrutura do HTML</h2>
+            <img src="imagens/estrutura-html.JPG" alt="corpo-html">
+            <div>
+                <ul>
+                    <li>
+                        <code>&lt;DOCTYPE html&gt;</code> - Essa declaração define que este documento é um documento HTML5
+                    </li> <br>
+                    <li>
+                        <code>&lt;html&gt;&lt;/html&gt;</code> - Esse elemento é o elemento raiz de uma página HTML.
+                    </li> <br>
+                    <li>
+                        <code>&lt;head&gt;&lt;/head&gt;</code> - Elemento que contém metainformações sobre a página HTML.
+                    </li> <br>
+                    <li>
+                        <code>&lt;meta charset="utf-8"&gt;</code> - Esse elemento define o conjunto de caracteres que seu documento deve usar para o UTF-8, que inclui praticamente todos os caracteres da grande maioria dos idiomas escritos. Essencialmente, agora ele pode manipular qualquer conteúdo textual que você possa colocar. Não há razão para não definir isso e assim pode ajudar a evitar alguns problemas no futuro. 
+                    </li> <br>
+                    <li>
+                        <code>&lt;title&gt;&lt;/title&gt;</code> - Elemento que especifica um título para a página HTML (que é mostrado na barra de título do navegador ou na guia da página)
+                    </li> <br>
+                    <li>
+                        <code>&lt;body&gt;&lt;/body&gt;</code> - Elemento que define o corpo do documento e é um recipiente para todos os conteúdos visíveis, como cabeçalhos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.
+                    </li>
+                </ul>
+            </div>
     </div>
-
 
 </body>
 
