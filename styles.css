@@ -131,10 +131,11 @@ code {
     font-weight: bold;
     padding-bottom: 5px;
     padding-left: 5px;
+    color: var(--tertiary-color);
 }
 
 .sidebar a:visited {
-    color: var(--secondary-text-color);
+    color: var(--tertiary-color);
 }
 
 .sidebar a:hover {
